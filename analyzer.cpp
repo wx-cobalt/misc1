@@ -9,7 +9,6 @@ using std::vector;
 using std::string;
 using std::chrono::system_clock;
 using std::chrono::milliseconds;
-using msType = std::chrono::duration<int, std::ratio<1, 1000>>;
 
 int linearSearch(vector<string> container, string word)
 {
